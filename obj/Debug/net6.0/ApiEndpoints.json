@@ -1,0 +1,144 @@
+[
+  {
+    "ContainingType": "AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/getToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "TechExam.Models.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.ProductController",
+    "Method": "getProductAnonymous_v1",
+    "RelativePath": "api/v{version}/products/getProductAnonymous",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSizeAndNumber",
+        "Type": "TechExam.Models.PageSizeAndNumber",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.ProductController",
+    "Method": "getProductAnonymous_v2",
+    "RelativePath": "api/v{version}/products/getProductAnonymous",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSizeAndNumber",
+        "Type": "TechExam.Models.PageSizeAndNumber",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.ProductController",
+    "Method": "getProductAuthorized_v1",
+    "RelativePath": "api/v{version}/products/getProductAuthorized",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSizeAndNumber",
+        "Type": "TechExam.Models.PageSizeAndNumber",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.ProductController",
+    "Method": "getProductAuthorized_v2",
+    "RelativePath": "api/v{version}/products/getProductAuthorized",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSizeAndNumber",
+        "Type": "TechExam.Models.PageSizeAndNumber",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.ProductController",
+    "Method": "getProductLocalDB_v1",
+    "RelativePath": "api/v{version}/products/getProductLocalDB",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSizeAndNumber",
+        "Type": "TechExam.Models.PageSizeAndNumber",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.ProductController",
+    "Method": "getProductLocalDB_v2",
+    "RelativePath": "api/v{version}/products/getProductLocalDB",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSizeAndNumber",
+        "Type": "TechExam.Models.PageSizeAndNumber",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

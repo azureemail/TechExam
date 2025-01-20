@@ -1,0 +1,296 @@
+[
+  {
+    "ContainingType": "AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/getToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.BookController",
+    "Method": "AddSomethingToGenres",
+    "RelativePath": "api/Book/AddToGenres/{name}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.BookController",
+    "Method": "AddNewBookAsync",
+    "RelativePath": "api/Book/book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "myNewBook",
+        "Type": "TechExam.Models.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.BookController",
+    "Method": "UpdateBook",
+    "RelativePath": "api/Book/book/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateMyBook",
+        "Type": "TechExam.Models.BookWithId",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.BookController",
+    "Method": "GetSpecificBook",
+    "RelativePath": "api/Book/book/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.BookController",
+    "Method": "GetAllBooks",
+    "RelativePath": "api/Book/books",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login/loginUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "passWord",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.LoginController",
+    "Method": "registerUserAsync",
+    "RelativePath": "api/Login/registerUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userData",
+        "Type": "TechExam.Models.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.PlaygroundController",
+    "Method": "AddCustomerAndOrderController",
+    "RelativePath": "api/Playground/AddCustomerAndOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CustomerAndOrderData",
+        "Type": "TechExam.Models.CustomerAndOrderDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.PlaygroundController",
+    "Method": "AddStudentAndCoursesController",
+    "RelativePath": "api/Playground/AddStudentAndCourses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentCourseDTO",
+        "Type": "TechExam.Models.StudentCourseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.PlaygroundController",
+    "Method": "AddTheUsersAndRolesController",
+    "RelativePath": "api/Playground/AddTheUsersAndRoles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "myData",
+        "Type": "TechExam.Models.TheUsersAndRolesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.PlaygroundController",
+    "Method": "GetAuthorAndBooks",
+    "RelativePath": "api/Playground/GetAuthorAndBooks/{AuthorName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AuthorName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.PlaygroundController",
+    "Method": "GetCustomerAndOrderController",
+    "RelativePath": "api/Playground/GetCustomerAndOrder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.PlaygroundController",
+    "Method": "RetrieveMyDataEndpoint",
+    "RelativePath": "api/Playground/getMyData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MyIdentifier",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.PlaygroundController",
+    "Method": "RetrieveRAFormNumEndpoint",
+    "RelativePath": "api/Playground/getRAFormNum",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.PlaygroundController",
+    "Method": "RetrieveStudentAndCourses",
+    "RelativePath": "api/Playground/GetStudentAndCourses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.PlaygroundController",
+    "Method": "GetTheUsersAndRolesController",
+    "RelativePath": "api/Playground/GetTheUsersAndRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.ProductController",
+    "Method": "getProductAnonymous",
+    "RelativePath": "api/v{version}/products/getProductAnonymous",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSizeAndNumber",
+        "Type": "TechExam.Models.PageSizeAndNumber",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechExam.Controllers.ProductController",
+    "Method": "getProductAuthorized",
+    "RelativePath": "api/v{version}/products/getProductAuthorized",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSizeAndNumber",
+        "Type": "TechExam.Models.PageSizeAndNumber",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
